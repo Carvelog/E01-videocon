@@ -1,0 +1,94 @@
+:local(.flexContainer) {
+    display: flex !important;
+    flex-flow: column;
+    height: 100%;
+}
+
+:local(.flexStatic) {
+    flex: 0 1 auto;
+}
+
+:local(.flexGrowVertical) {
+    flex: 1 1 auto;
+}
+
+:local(.verticalMargin) {
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+
+:local(.noMargin) {
+    margin: 0 !important;
+}
+
+:local(.noPadding) {
+    padding: 0 !important;
+}
+
+:local(.noTopPadding) {
+    padding-top: 0 !important;
+}
+
+:local(.noMinHeight) {
+    min-height: unset !important;
+}
+
+:local(.fullHeight) {
+    height: 100% !important;
+}
+
+:local(.fullWidth) {
+    width: 100% !important;
+}
+
+:local(.centerContent) {
+    text-align: center !important;
+}
+
+:local(.darkBackground) {
+    background-color: #000000;
+    background-image: url("dark-geometric.png");
+}
+
+:local(.chat) {
+    margin-top: 0 !important;
+    margin-bottom: 1em !important;
+}
+
+:local(.messagesContainer) {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    position: relative;
+    min-height: 50px;
+}
+
+:local(.messages) {
+    position: absolute;
+}
+
+:local(.userControls) {
+    flex: 0 1 content;
+    margin-top: 0 !important;
+    margin-bottom: 1em !important;
+}
+
+:local(.localVideo) {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 10;
+}
+
+:local(.videoLayoutColumn) {
+    padding-right: 0 !important;
+}
+
+.comment {
+    margin-top: 0.5em !important;
+}
+
+video {
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%;
+}
